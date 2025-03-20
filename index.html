@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🔥 Radio Player</h1>
+    </header>
+
+    <main>
+        <div class="player">
+            <h2 id="radio-title">Выберите радио</h2>
+            <audio id="audio" controls>
+                Ваш браузер не поддерживает аудио.
+            </audio>
+            <div class="stations">
+                <button onclick="playStation('https://radiorecord.hostingradio.ru/rr_main96.aacp', 'Radio Record')">🎵 Radio Record</button>
+                <button onclick="playStation('https://radiorecord.hostingradio.ru/dc_128', 'Deep House')">🎧 Deep House</button>
+                <button onclick="playStation('https://radiorecord.hostingradio.ru/club_128', 'Club')">🔥 Club</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Ваше Радио | Неофициальный проект</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

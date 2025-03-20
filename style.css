@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #222;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background: #ff9900;
+    padding: 20px;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+.player {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.stations button {
+    background: #ff9900;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.stations button:hover {
+    background: #ff6600;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background: #111;
+    padding: 10px;
+    font-size: 14px;
+}
